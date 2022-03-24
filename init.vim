@@ -6,7 +6,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'                                              
 Plug 'neoclide/coc.nvim', {'branch': 'release'}                          
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  } 
-Plug 'arcticicestudio/nord-vim'
 Plug 'pineapplegiant/spaceduck'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -25,15 +24,17 @@ Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-Plug 'jparise/vim-graphql'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'pappasam/coc-jedi', { 'do': 'yarn install --frozen-lockfile && yarn build', 'branch': 'main' }
+Plug 'glepnir/dashboard-nvim'
+Plug 'APZelos/blamer.nvim'
+Plug 'camspiers/animate.vim'
+Plug 'camspiers/lens.vim'
 call plug#end()
 
 source ~/.config/nvim/config/native/n_neovim.vim
 source ~/.config/nvim/config/native/n_keybinds.vim
 
-runtime ~/.config/nvim/config/plugins/p_plugins.vim
 source ~/.config/nvim/config/plugins/p_airline.vim
 source ~/.config/nvim/config/plugins/p_ale.vim
 source ~/.config/nvim/config/plugins/p_barbar.vim
@@ -44,3 +45,5 @@ source ~/.config/nvim/config/plugins/p_nvimtree.vim
 source ~/.config/nvim/config/plugins/p_rainbow.vim
 source ~/.config/nvim/config/plugins/p_spaceduck.vim
 source ~/.config/nvim/config/plugins/p_telescope.vim
+source ~/.config/nvim/config/plugins/p_dashboard.vim
+source ~/.config/nvim/config/plugins/p_blamer.vim
