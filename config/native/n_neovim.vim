@@ -25,7 +25,7 @@ if exists('+termguicolors')
 	set termguicolors
 endif
 
-colorscheme spaceduck
+colorscheme nord
 
 au VimEnter * syntax on
 
