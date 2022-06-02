@@ -30,8 +30,6 @@ Plug 'kyazdani42/nvim-web-devicons'
 " 
 Plug 'romgrk/barbar.nvim'
 " 
-Plug 'kyazdani42/nvim-tree.lua'
-" 
 Plug 'norcalli/nvim-colorizer.lua'
 " 
 Plug 'liuchengxu/vista.vim'
@@ -61,6 +59,10 @@ Plug 'camspiers/animate.vim'
 Plug 'camspiers/lens.vim'
 " 
 Plug 'arcticicestudio/nord-vim'
+
+Plug 'francoiscabrol/ranger.vim'
+
+Plug 'rbgrouleff/bclose.vim'
 call plug#end()
 
 source ~/.config/nvim/config/native/n_neovim.vim
@@ -72,7 +74,7 @@ source ~/.config/nvim/config/plugins/p_barbar.vim
 source ~/.config/nvim/config/plugins/p_coc.vim
 source ~/.config/nvim/config/plugins/p_gitgutter.vim
 source ~/.config/nvim/config/plugins/p_lspsaga.vim
-source ~/.config/nvim/config/plugins/p_nvimtree.vim
+source ~/.config/nvim/config/plugins/p_ranger.vim
 source ~/.config/nvim/config/plugins/p_rainbow.vim
 source ~/.config/nvim/config/plugins/p_spaceduck.vim
 source ~/.config/nvim/config/plugins/p_telescope.vim

@@ -3,7 +3,7 @@ nnoremap <A-w> :BufferClose<CR>
 nnoremap <Tab> :BufferNext<CR> 
 nnoremap <S-Tab> :BufferPrevious<CR>
 " Open Nvimtree
-nnoremap <C-b> :NvimTreeToggle<CR>
+nnoremap <C-b> :Ranger<CR>
 " Open Vista
 nnoremap <C-f> :Vista!!<CR>
 " Open Project problems
